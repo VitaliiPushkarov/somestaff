@@ -1,0 +1,100 @@
+html,
+body {
+    padding : 0 ; 
+    margin : 0 ; 
+    
+}
+.profile {
+    
+    padding: 10px 5px ;
+}
+h1 {
+    margin : 1px ; 
+    font-weight: bold ;
+    background-color : lightblue ; 
+    border-radius : 5px ; 
+    text-align: center ;
+    color : #3D3939 ; 
+}
+.profile .photo img  {
+    display: block;
+    padding: 10px;
+    border: 2px solid #34495e;
+    border-radius: 8px;
+}
+.profile .photo {
+      float: left ; 
+      width: 400px;
+
+
+}
+.profile .information {
+    float: left;
+    width : 700px ; 
+    margin-left: 10px ;
+}
+#info-title, .information  h2   {
+    margin: 10px  ;
+    padding: 10px ;
+    font-weight: bold ; 
+    border-radius: 8px ;  
+    background-color : lightskyblue ;
+    text-align: center;    
+}
+
+a { 
+    float : right ;
+    display: block ; 
+    margin : 10px ; 
+    width : 700px ;
+    background-color : #DAE6E6 ;
+    border-radius: 8px ;  
+    padding : 10px ; 
+    font-size : 20px ;
+}
+h3 {
+    float : right ;
+    height: 26px ; 
+    width : 700px ; 
+    margin: 10px  ;
+    padding: 10px ;
+    font-weight: bold ; 
+    border-radius: 8px ;  
+    background-color : lightskyblue ;
+    text-align: center; 
+}
+.albums img {
+    background-color : #DAE6E6 ;
+    
+    padding: 15px;
+    margin-top : 10px ;
+    border: 2px solid #34495e;
+    border-radius: 8px;
+
+}
+.albums {
+    float : right ;
+   
+}
+.footer {
+    clear: both;
+    font-weight: bold ;
+    background-color : lightblue ; 
+    border-radius : 5px ; 
+    text-align: center ;
+    color : #3D3939 ;   
+
+}
+.profile .block {
+    display: inline-block ;
+    
+     
+}
+.block {
+    width : auto ; 
+    border : 2px solid black ; 
+    border-radius:  8px ; 
+    background-color  : #DAE6E6;
+    text-shadow: 1px 1px #686464 ; 
+    font-weight: normal ; 
+}
